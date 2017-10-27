@@ -1,0 +1,681 @@
+html,body{
+	height:100%;
+}
+html, body, div, span, applet, object, iframe,
+ h1, h2, h3, h4, h5, h6, p, a, big, del, em, img,
+ small, strike, strong, sub, sup, tt, var, b, u,
+ i, dl, dt, dd, ol, ul, li, fieldset, form, label,
+ legend, table, caption, tbody, thead, tr, th, td,
+ article, aside, canvas, details, figure, figcaption,
+ footer, header, section, summary, time, input{
+ 	margin:0;
+ 	padding:0;
+ }
+ .head{
+ 	height:30px;
+ 	width:1519px;
+ 	background:#f1f1f1;
+ 	top:0;
+ 	left:0;
+ }
+ .left1{
+ 	width:1210px;
+ 	margin: 0 auto;
+ }
+
+ .left2{
+ 	width:120px;
+ 	float:left;
+ 	font-size:11px;
+  	color:#666;
+  	text-align:center;
+  	line-height:30px;
+ }
+
+ .right{
+ 	float:right;
+ }
+.right	p, span{
+	width:66px;
+	float:left;
+ 	font-size:11px;
+  	color:#666;
+  	text-align:center;
+  	line-height:30px;
+  	margin-right:0;
+ }
+ .right span{
+ 	color:red;
+ }
+ .right:hover span{
+ 	color:#d92d0b;
+ }
+ .wuzi{
+ 	font-size:16px;
+ 	float:left;
+ 	font-family:'iconfont';
+ }
+  .btxia{
+ 	width:1px;
+ 	height:11px;
+ 	background:#ddd;
+	margin-right:0;
+	float:left;
+	margin-top:9px;
+ }
+ .tan{
+ 	width:1519px;
+ 	height:80px;
+ 	background:#a87848;
+ }
+ .tanimg{
+ 	width:1210px;
+ 	margin:0 auto;
+ }
+.white{
+	width:100%;
+	height:145px;
+ 	background:#fff;
+}
+.white2{
+	width:1210px;
+	height:145px;
+ 	margin:0 auto;
+}
+.chaozhigou{
+	width:184px;
+	height:144px;
+	margin:0 10px;
+}
+.inpdiv{
+	position: relative;
+	width:540px;
+	height:65px;
+	top:-150px;
+	left:200px;
+}
+.inp{
+	overflow:hidden;
+	position:absolute;
+	width:540px;
+	height:32px;
+	border:2px solid #c81522;
+	left:100px;
+	top:25px;
+	z-index:1;
+}
+.white input{
+	    height:30px;
+	    width:300px;
+	    left:45px;
+	    border:none;
+	    outline:none;
+}
+.zhengfangxing{
+	width:80px;
+	height:33px;
+	background:#c81522;
+	float:right;
+	color:white;
+	font-size:16px;
+	text-align:center;
+	line-height:32px;
+}
+.sanjiaoxing{
+	position:absolute;
+	height:0;
+	width:0;
+	border-top:15px solid white;
+	border-bottom:15px solid white;
+	border-right:15px solid #c81522;
+	right:80px;
+	bottom:2px;
+}
+.sousuo{
+	font-family:"iconfont";
+	color:#e3e3e3;
+	font-size:20px;
+	font-weight:bold;
+	margin:0 10px;
+	line-height:32px;
+}
+.ssp{
+	color:#333;
+	font-size:15px;
+	margin:0 -10px;
+	line-height:32px;
+}
+.chp{
+	width:550px;
+	height:20px;
+    margin-top:-152px;
+    margin-left:300px;
+    line-height: 10px;
+}
+.chp a{
+	height:20px;
+	float:left;
+	font-size:12px;
+	margin:4px;
+	color:#999;
+}
+.chp a p{
+	color:red;
+}
+.chp a:hover{
+	color: red;
+}
+.shop{
+	height:36px;
+	width:140px;
+	border:1px solid #dfdfdf;
+	float:right;
+	margin-top:-58px;
+	margin-right:90px;
+	background:#f9f9f9;
+}
+
+.shopcar{
+	font-family:"iconfont";
+	color:red;
+	width:100%;
+	height:38px;
+	margin-left:5px;
+	font-size:16px;
+}
+.shop a{
+font-size:12px;
+color:#666;
+margin-left:10px;
+line-height:38px;
+}
+.shopx{
+	font-size:13px;
+	margin:-45px 70px;
+	color:red;
+}
+.ewmsmall{
+	height:70px;
+	width:70px;
+	border:1px solid #e9e9e9;
+	margin-top:-60px;
+	margin-left:150px;
+}
+.ewmsmall span{
+	font-family: 'iconfont';
+	font-size:70px;
+	color:#e31b19;
+	line-height:75px;
+}
+.shap{
+	height:40px;
+	width:790px;
+	margin-left:200px;
+	margin-top:20px;
+}
+.shap span{
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #555;
+    margin-left:8px;
+}
+.shap .shap1{
+	width:1px;
+	height:10px;
+	border-right:1px solid #d1d1d1;
+	margin-top:15px;
+}
+.shap .shap2{
+	width:1px;
+	height:10px;
+	border-right:1px solid #d1d1d1;
+	margin:15px;
+}
+.shap span:hover{
+	color: red;
+}
+.centre{
+	height:480px;
+	width:1519px;
+	background:#fff;
+}
+.centrebig{
+	height:480px;
+	width:1190px;
+	background:#f6f6f6;/*灰白色*/
+	margin:0 auto;
+}
+.centreleft{
+	height:480px;
+	width:190px;
+	float:left;
+	background:#6e6568;
+}
+.lileft ul{
+ margin-top:5px;
+}
+.lileft li{
+	width:150px;
+	height:28px;
+	padding:2px 0 0 12px;
+	list-style:none;
+}
+.lileft{
+	color:#fff;
+	margin:2px;
+    text-decoration: none;
+    line-height:28px;
+    width:100%;
+	height:28px;
+	padding:2px 0 0 12px;
+	list-style:none;
+}
+.lileft a{
+	font:14px 'Arial';
+	color:#fff;
+	margin:2px;
+    text-decoration: none;
+    line-height:28px;
+}
+.centreleft .lileft:hover .hoverbig{
+	display:block;
+	z-index:10;
+}
+.lileft a:hover{
+	color:red;
+}
+.hoverbig{
+	position:relative;
+	width:1000px;
+	background:#f9e7fb;
+	left:180px;
+	display:none;
+}
+.hoverte{
+	position:absolute;
+	top:-30px;
+	height:24px;
+}
+.hoverte a{
+	padding:0 10px;
+	font:bold 12px Arial;
+	float:left;
+	margin-right:10px;
+    background:#6e6568;
+    line-height: 24px;
+	text-decoration: none;
+	color:#fff;
+	font-family:'iconfont';
+}
+.hovertezj{
+	width:800px;
+	height:400px;
+	background:#f6f6f6;
+	position:absolute;
+	overflow:hidden;
+}
+.hovertezj ul{
+	overflow: hidden;
+	width:800px;
+	margin-left:60px;
+	color:#666;	
+	margin:10px;
+	border-bottom:1px solid #eee;
+}
+.hovertezj ul li{
+	height:36px;
+	width:700px;
+	float: left;
+	line-height:36px;
+	background:none;
+}
+.lilia a, .lilie a{
+	height: 16px;
+	float: left;
+	background:none;
+	font: 12px Arial;
+	padding:4px;
+	border-left:1px solid #eee;
+	color:#666;
+}
+.lilia .tv{
+	width:70px;
+	height:20px;
+	font:13px bold;
+	margin-left:5px;
+	font-family:'iconfont';
+	border:none;
+}
+.hovertezj .lilie{
+	   height:80px;
+	   width:700px;
+}
+.lilie a{
+	font-family:'iconfont';
+	border:none;
+	line-height:30px;
+}
+
+.tvvp{
+	margin-left:-40px;
+	margin-top:10px;
+}
+.lilia .red{
+	height: 16px;
+	background: #f6f0f0;
+	border: 1px dotted #dddcdc;
+	line-height: 16px;
+	font-weight: 700;
+    color: #c81623;
+   margin-left:-20px;
+}
+.lilia .qu{
+	border:none;
+	margin-left:15px;
+}
+.imimg{
+	float:right;
+	width:190px;
+	margin-top:-24px;
+}
+.imimg1{
+	padding-bottom:10px;
+	margin-top:-3px;
+}
+.img2{
+margin-top:-7px;
+margin-left:2px;
+}
+.imimg1 img{
+	margin:-2px;
+	margin-left:1px;
+}
+.imimg:hover img{
+left:1px;
+}
+.backimg{
+	position:absolute;
+	height:340px;
+	width:790px;
+	left:362px;
+}
+.backimg2{
+	height:130px;
+	width:390px;
+	float:right;
+}
+.backimg2 img{
+	height:130px;
+	width:390px;
+}
+.back2{
+	height:130px;
+	width:390px;
+	float:left;
+
+}
+.back2 img{
+	height:130px;
+	width:390px;
+}
+.back{
+	height:130px;
+	width:790px;
+	top:600px;
+	left:362px;
+}
+.backright{
+	height:480px;
+	width:190px;
+	background:#fff;
+	float: right;
+}
+.righttop{
+	height:115px;
+	width:188px;
+	border-bottom:1px solid #aeaeae;
+	margin-top:0;
+	margin-left:0;
+	background:white;
+	box-shadow:1px 1px 10px grey;
+}
+.touxia{
+	height:50px;
+	width:50px;
+	border-radius:50%;
+	background:#ececec;
+}
+.toux span{
+	font-family:'iconfont';
+	color:#a32a21;
+	font-size:40px;
+	margin-top:9px;
+	margin-left:-8px;
+}
+.toux{
+    padding: 15px 0 15px 20px;
+}
+.rightwen{
+	width:120px;
+	margin-left:70px;
+	margin-top:-8px;
+}
+.rightwen p{
+	font-size: 12px;
+	margin-top:5px;
+    color: #666;
+}
+.rightkuan{
+	height:24px;
+	width:170px;
+	margin:14px 6px;
+}
+.rightk:hover{
+	background:red;
+	color:white;
+}
+.rightkk:hover{
+	background:red;
+	color:white;
+}
+.rightkuan span{
+	height:24px;
+	width:70px;
+	font:12px bold;
+	border:1.5px solid red;
+	margin-left:10px;
+	text-align:center;
+	line-height:24px;
+	color:red;
+}
+.rightcxwen{
+	height:26px;
+	width:160px;
+	margin:0 auto;
+}
+.rightcxwen{
+	width:170px;
+	margin-left:10px;
+	border-bottom: 1px solid #e6e6e6;
+}
+.rightcxwen .tooto{
+	width:35px;
+	height:27px;
+	float:left;
+	font-size:12px;
+	color: #a32a21;
+    line-height:26px;
+    margin-left:10px;
+    border-bottom: 2px solid red;
+}
+.rightcxwen b{
+	color:#e6e6e6;
+	font-weight:normal;
+}
+.rightgd{
+	width:120px;
+	float:right;
+	font-size:12px;
+    line-height:26px;
+}
+.rightgd p{
+	float: left;
+	margin-left: 12px;
+}
+.rightgd span{
+	float: right;
+}
+.cxwen{
+	height: 120px;
+	width:160px;
+	margin:25px auto;
+}
+.cxww{
+	height: 110px;
+	width:190px;
+	margin:30px auto;
+	box-shadow:1px 1px 10px grey;
+}
+.cxwen a:hover{
+color:red;
+}
+.cxwen a{
+	text-decoration:none;
+	font-size:12px;
+	color: #666;
+    line-height:26px;
+}
+.redbor1{
+	width: 10px;
+}
+.xuebi{
+	width:190px;
+	height:210px;
+	margin-top:-27px;
+}
+.xuebil{
+	width:190px;
+	height:215px;
+	margin-top:30px;
+	overflow:hidden;
+	box-shadow:1px 1px 10px grey;
+}
+.xuebi .xuebil div{
+	position: relative;
+    float: left;
+    width: 46px;
+    height: 71px;
+    text-align: center;
+    font-family:"iconfont";
+    font-size:24px;
+    line-height:60px;
+    border-top: 1px solid #e7e7e7;
+    border-left: 1px solid #e7e7e7;
+    color:#666;
+}
+.xuebi .xuebil p{
+	font-size:12px;
+	margin-top:-30px;
+	color:#666;
+}
+.xuebi .xuebil p:hover{
+	color:red;
+}
+.xuebi .xuebil div:hover{
+	font-size:26px;
+}
+.jdmshai{
+	height:305px;
+	width:1519px;
+	background:pink;
+	position:relative;
+}
+.jdmsha{
+	height:305px;
+	width:1190px;
+	background:yellow;
+	margin:0 auto;
+}
+.jdmsz{
+	height:55px;
+	width:1190px;
+	background:#d21221;
+	position:absolute;
+	border-top-left-radius:20%;
+}
+.jdmszx{
+	width:1190px;
+	height:55px;
+	margin:0 auto;
+	border-top-left-radius:22%;
+	background:linear-gradient(to right,#c4545d 40%,#d22633 60%);
+}
+.sonz{
+	font-family:'iconfont';
+	font-size:30px;
+	height:30px;
+	width:50px;
+	position:absolute;
+	z-index:10;
+	display:block;
+	color:white;
+	margin:12px 40px;
+}
+.sonjd{
+	font-family:'宋体';
+	height:55px;
+	line-height:55px;
+	font-size: 26px;
+	margin-left:90px;
+	color:white;
+	position:absolute;
+	text-decoration:none;
+}
+.jdmszx .sonzong{
+	font-family:'楷体';
+	height:55px;
+	line-height:66px;
+	font-size:15px;
+	margin-left:70px;
+	color:white;
+	width:400px;
+}
+.jdmszx .sonyou{
+	font-family:'iconfont';
+	height:20px;
+	width:20px;
+	font-size:18px;
+	position:absolute;
+	color:white;
+	margin:18px -130px;
+
+}
+.sondjshi{
+	height: 55px;
+	width:270px;
+	position:absolute;
+	border:1px solid white;
+	right:30px;
+}
+.sondjshi a{
+	height:55px;
+	font-size:22px;
+	color:white;
+	font-family:bold '宋体';
+	line-height:55px;
+}
+.sondao, .sondao2{
+	height:40px;
+	width:50px;
+	border:2px solid black;
+	position:absolute;
+	top:6px;
+}
+.sondjshi .sondao{
+	left:100px;
+}
+.sondjshi .sondao2{
+	left:170px;
+}
